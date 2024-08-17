@@ -1,0 +1,72 @@
+/* Text selection styles */
+::selection {
+  background-color: #00bc91;
+  color: black;
+}
+
+/* Scrollbar Styles */
+
+*::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: #212223;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00bc91;
+  border-radius: 30px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #069c7a;
+  border-radius: 30px;
+}
+.logo {
+  transition: all 0.5s;
+}
+.logo:hover {
+  filter: drop-shadow(0px 0px 2px #069c7a);
+}
+.client-h {
+  display: none;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #069c7a;
+}
+
+@media screen and (max-width: 768px) {
+  .client-h {
+    display: inline-block;
+  }
+}
+
+.js {
+  background-color: yellow;
+  padding-top: 5px;
+  letter-spacing: -1px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  color: black;
+}
+.p {
+  padding: 5px;
+}
+.bright {
+  filter: brightness(120%);
+}
+.bright-90 {
+  filter: brightness(90%);
+}
+
+@media screen and (max-width: 1280px) {
+  #re {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #cursor-display {
+    display: none;
+  }
+}
